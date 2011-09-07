@@ -5,15 +5,13 @@
   "version": "0.0.1",
   "author": "Oleg Podsechin <oleg@ionsquare.com>",
   "directories" : {
-    "lib" : "./lib",
-    "example": "./examples"
+    "lib" : "."
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/olegp/common-utils.git"
   },
   "homepage": "http://github.com/olegp/common-utils/",
-  "main": "./lib/all.js",
   "engines": {
     "node": "*"
   },
