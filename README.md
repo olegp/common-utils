@@ -9,11 +9,13 @@ The following modules are included:
 
 ### Tests
 
-To run the unit tests run:
+You will need to globally install [common-node](http://oleg.github.com/common-node/) via npm to run the tests.
+
+To run the unit tests:
 
     node test/all.js
 
-You can also run individual tests or sets of tests, for example:
+You can also run individual tests, for example:
 
  	node test/base64.js
 
