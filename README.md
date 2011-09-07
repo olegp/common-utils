@@ -50,6 +50,8 @@ To find specific issues not listed on the tracker, you can run the following com
 
 To contribute code: fork the project, make and commit your changes and send a pull request.
 
+Modules currently planned for includes are listed on the [wiki](http://github.com/olegp/common-utils/wiki/).
+
 ### Acknowledgements
 
   * [dsowsy](https://github.com/dsowsy) for pointing out that base64 needs to be refactored out of `common-node`
