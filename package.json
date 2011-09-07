@@ -1,0 +1,25 @@
+{
+  "name": "common-utils",
+  "keywords": ["utils"],
+  "description": "A collection of pure JavaScript utility modules for server side use",
+  "version": "0.0.1",
+  "author": "Oleg Podsechin <oleg@ionsquare.com>",
+  "directories" : {
+    "lib" : "./lib",
+    "example": "./examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olegp/common-utils.git"
+  },
+  "homepage": "http://github.com/olegp/common-utils/",
+  "main": "./lib/all.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+  	"common-node": ">= 0.2.0"
+  },
+  "licenses": [ { "type": "MIT" } ]
+}
