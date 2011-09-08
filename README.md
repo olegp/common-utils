@@ -16,9 +16,9 @@ First install the package via npm:
     
 To use the package in your module:
 
-    var decode = require('common-utils').decode;
+    var decode = require('common-utils/base64').decode;
     
-For all the available methods, check out the [documentation](http://oleg.github.com/common-utils/doc/).
+For all the available modules and exports, check out the [documentation](http://oleg.github.com/common-utils/doc/). More info on how to use `require` is available in the [Node.js documentation](http://nodejs.org/docs/v0.5.5/api/modules.html).
 
 
 ### Tests
