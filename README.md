@@ -2,6 +2,10 @@
 
 This package implements a number of pure JavaScript utility modules useful for server side development. It can be used with [all engines](http://wiki.commonjs.org/wiki/Implementations) implementing the  CommonJS [Modules/1.1](http://wiki.commonjs.org/wiki/Modules/1.1) and [Packages/1.0](http://wiki.commonjs.org/wiki/Packages/1.0) specifications.
 
+This project strives to provide the fastest, leanest cross platform utilities library.
+
+If you're using Node.js, then it is recommended that you use this together with the [Common Node](http://olegp.github.com/common-node/) package to create easy to follow apps written in a synchronous style (but asynchronous under the hood!) that can also run on other engines like RingoJS and in turn any platform that supports Java such as Google AppEngine and Amazon BeanStalk. 
+
 The following modules are included:
 
 * base64 - Base 64 encoding and decoding
@@ -80,5 +84,3 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
