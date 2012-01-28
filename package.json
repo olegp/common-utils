@@ -2,7 +2,7 @@
   "name": "common-utils",
   "keywords": ["utils"],
   "description": "A collection of pure JavaScript utility modules for server side use",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Oleg Podsechin <oleg@ionsquare.com>",
   "directories" : {
     "lib" : "."
