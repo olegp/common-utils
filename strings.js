@@ -91,7 +91,7 @@ var digest = exports.digest = function(string, algorithm) {
  */
 var fill = exports.fill = function(string, args) {
 	for( var key in args) {
-		string = string.replace(new RegExp('\\{' + i + '\\}', 'g'), args[key]);
+		string = string.replace(new RegExp('\\{' + key + '\\}', 'g'), args[key]);
 	}
 	return string;
 };
