@@ -59,7 +59,7 @@ var escapeHtml = exports.escapeHtml = function(string) {
 }
 
 /**
- * function calculates a message digest of a string. If no
+ * Calculates a message digest of a string. If no
  * argument is passed, the MD5 algorithm is used.
  * @param {String} string the string to digest
  * @param {String} algorithm the name of the algorithm to use
@@ -72,4 +72,17 @@ var digest = exports.digest = function(string, algorithm) {
 	}
     var md = algorithms[algorithm || 'md5'];
 	return md(string).toUpperCase();
+}
+
+/**
+ * Fills the string provided with the arguments.
+ * @param {String} string the string to fill
+ * @param {Object} args the arguments used to fill the string
+ */
+var fill = exports.fill = function(string, args) {
+	if(!string) return;
+	for(var key in args) {
+		string = string.replace(new RegExp('\\{' + key + '\\}','g'), args[key]);
+  }
+	return string;	
 }
