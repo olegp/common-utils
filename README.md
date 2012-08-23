@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/olegp/common-utils.png)](http://travis-ci.org/olegp/common-utils)
 # Common Utils
 
 This package implements a number of pure JavaScript utility modules useful for server side development. It can be used with [all engines](http://wiki.commonjs.org/wiki/Implementations) implementing the  CommonJS [Modules/1.1](http://wiki.commonjs.org/wiki/Modules/1.1) and [Packages/1.0](http://wiki.commonjs.org/wiki/Packages/1.0) specifications. Common Utils strives to provide the fastest, leanest cross platform utilities implementation, so the code size is kept to a minimum while performance is optimized with the help of extensive benchmarks. The following modules are included:
