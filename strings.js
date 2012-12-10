@@ -95,3 +95,16 @@ var fill = exports.fill = function(string, args) {
   }
 	return string;	
 }
+
+/**
+ * Returns true if string contains substring.
+ * @param {String} string the string to search in
+ * @param {String} substring the string to search for
+ * @param {Number} fromIndex optional index to start searching
+ * @returns true if str is contained in this string
+ * @type Boolean
+ */
+var contains = exports.contains = function(string, substring, fromIndex) {
+    fromIndex = fromIndex || 0;
+    return string.indexOf(substring, fromIndex) > -1;
+}
